@@ -10,6 +10,7 @@ Workspace for the **Text Mining (`D7058E 27014 HT2026`)** laboratory assignments
   - [`docs/lab-grading-criteria.md`](docs/lab-grading-criteria.md)
 - `src/` — Lab notebooks:
   - [`src/lab1.ipynb`](src/lab1.ipynb)
+- [`Taskfile.yml`](Taskfile.yml) — Task runner shortcuts (`task sync`, `task check`, `task lint`, `task fmt`)
 
 ## Setup & Verification
 
@@ -17,10 +18,8 @@ This project uses [`uv`](https://docs.astral.sh/uv/) with Python `>=3.15`, `ruff
 
 ```powershell
 # Sync environment and dependencies
-uv sync
+task sync
 
 # Run lint, formatting check, and type check
-uv run ruff check .
-uv run ruff format --check .
-uv run ty check
+task check
 ```

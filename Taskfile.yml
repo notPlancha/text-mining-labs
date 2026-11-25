@@ -1,0 +1,30 @@
+version: '3'
+
+tasks:
+  default:
+    desc: "List available tasks"
+    cmds:
+      - task --list
+    silent: true
+
+  sync:
+    desc: "Sync Python dependencies and virtual environment using uv"
+    cmds:
+      - uv sync
+
+  lint:
+    desc: "Run ruff lint checks"
+    cmds:
+      - uv run ruff check .
+
+  fmt:
+    desc: "Format files with ruff"
+    cmds:
+      - uv run ruff format .
+
+  check:
+    desc: "Run lint, formatting check, and ty type check"
+    cmds:
+      - uv run ruff check .
+      - uv run ruff format --check .
+      - uv run ty check
