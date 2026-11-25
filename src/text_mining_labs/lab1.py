@@ -1,6 +1,6 @@
 """Lab 1 function stubs for tokenization and part-of-speech (PoS) tagging.
 
-See ``docs/lab1/instructions.md`` for full task requirements.
+See ``docs/lab1/text_mining1.ipynb`` and ``docs/pages/lab-grading-criteria.md``.
 """
 
 from collections.abc import Sequence
