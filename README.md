@@ -4,13 +4,11 @@ Workspace and scaffolding for the **Text Mining (`D7058E 27014 HT2026`)** labora
 
 ## Repository Structure
 
-- `docs/` — Original course/lab documents and slides relevant to Lab 1:
+- `docs/` — Assignment-specific original docs for Lab 1:
   - [`docs/text_mining1.ipynb`](docs/text_mining1.ipynb)
-  - [`docs/TM_Intro.pptx`](docs/TM_Intro.pptx)
   - [`docs/TM_Structural.pptx`](docs/TM_Structural.pptx)
   - [`docs/lab-1-and-other-important-info.md`](docs/lab-1-and-other-important-info.md)
   - [`docs/lab-grading-criteria.md`](docs/lab-grading-criteria.md)
-  - [`docs/welcome.md`](docs/welcome.md)
 - [`src/text_mining_labs/`](src/text_mining_labs/__init__.py) — Python package stubs for lab exercises ([`lab1.py`](src/text_mining_labs/lab1.py))
 - [`notebooks/`](notebooks/lab1_starter.ipynb) — Starter Jupyter/Colab notebook template ([`lab1_starter.ipynb`](notebooks/lab1_starter.ipynb))
 - [`tests/`](tests/test_scaffold.py) — Scaffold smoke tests
