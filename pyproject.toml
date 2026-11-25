@@ -1,0 +1,33 @@
+[project]
+name = "text-mining-labs"
+version = "0.1.0"
+description = "LTU D7058E Text Mining labs"
+readme = "README.md"
+authors = [
+    { name = "notPlancha", email = "31565873+notPlancha@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "nltk>=3.10.4",
+    "pandas>=3.1.1",
+    "spacy>=3.8.18",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.6",
+    "ty>=0.0.109",
+]
+
+[tool.ruff]
+target-version = "py311"
+extend-exclude = ["docs/lab1/text_mining1_instructor.ipynb"]
+
+[tool.ty.environment]
+python-version = "3.11"

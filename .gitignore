@@ -1,0 +1,26 @@
+# Python & uv environments
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+
+# Test, lint, and type-checker caches
+.pytest_cache/
+.ruff_cache/
+.ty_cache/
+.coverage
+htmlcov/
+
+# Jupyter & Colab
+.ipynb_checkpoints/
+
+# Datasets and large media assets (never commit)
+data/
+*.mp4
+*.zip
+*.tar.gz
+*.csv
