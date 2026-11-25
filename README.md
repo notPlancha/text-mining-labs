@@ -4,15 +4,20 @@ Workspace and scaffolding for the **Text Mining (`D7058E 27014 HT2026`)** labora
 
 ## Repository Structure
 
-- [`docs/`](docs/course-overview.md) — Course overview, policies, grading criteria, materials index, and Lab 1 instructions:
-  - [`docs/course-overview.md`](docs/course-overview.md) — Schedule, rooms (`A3002`, `A3012`), Zoom link, lab/quiz prerequisites, late submission rules, and oral exam dates
-  - [`docs/course-information.md`](docs/course-information.md) — Textbooks, evaluation metrics reference, AI usage & acknowledgment policy, and `U`/`G`/`VG` grading scale
-  - [`docs/lab-grading-criteria.md`](docs/lab-grading-criteria.md) — 4-minute Colab presentation format, grading questions, and group project requirements
-  - [`docs/recordings-and-materials.md`](docs/recordings-and-materials.md) — Links and local `.canvas-vault` paths for lecture slides, videos, and lab notebooks
-  - [`docs/lab1/instructions.md`](docs/lab1/instructions.md) — Lab 1 deadline, Task 1 requirements, dataset link, and AI declaration notes
-  - [`docs/lab1/text_mining1_instructor.ipynb`](docs/lab1/text_mining1_instructor.ipynb) — Untouched instructor reference notebook (`text_mining1.ipynb`)
-- [`src/text_mining_labs/`](src/text_mining_labs/__init__.py) — Python package stubs for lab exercises (`lab1.py`)
-- [`notebooks/`](notebooks/lab1_starter.ipynb) — Starter Jupyter/Colab notebook templates (`lab1_starter.ipynb`)
+- `docs/` — Original Canvas pages, announcements, slides, and instructor Lab 1 notebook:
+  - [`docs/pages/welcome.md`](docs/pages/welcome.md)
+  - [`docs/pages/course-information.md`](docs/pages/course-information.md)
+  - [`docs/pages/lab-grading-criteria.md`](docs/pages/lab-grading-criteria.md)
+  - [`docs/pages/recordings-of-class-and-labs.md`](docs/pages/recordings-of-class-and-labs.md)
+  - [`docs/pages/introduction-to-text-mining.md`](docs/pages/introduction-to-text-mining.md)
+  - [`docs/pages/structural-analysis.md`](docs/pages/structural-analysis.md)
+  - [`docs/pages/neuralnets-for-text-mining.md`](docs/pages/neuralnets-for-text-mining.md)
+  - [`docs/announcements/lab-1-and-other-important-info.md`](docs/announcements/lab-1-and-other-important-info.md)
+  - [`docs/lab1/text_mining1.ipynb`](docs/lab1/text_mining1.ipynb)
+  - [`docs/lecture_slides/TM_Intro.pptx`](docs/lecture_slides/TM_Intro.pptx)
+  - [`docs/lecture_slides/TM_Structural.pptx`](docs/lecture_slides/TM_Structural.pptx)
+- [`src/text_mining_labs/`](src/text_mining_labs/__init__.py) — Python package stubs for lab exercises ([`lab1.py`](src/text_mining_labs/lab1.py))
+- [`notebooks/`](notebooks/lab1_starter.ipynb) — Starter Jupyter/Colab notebook template ([`lab1_starter.ipynb`](notebooks/lab1_starter.ipynb))
 - [`tests/`](tests/test_scaffold.py) — Scaffold smoke tests
 
 ## Setup & Verification
