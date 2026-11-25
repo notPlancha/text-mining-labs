@@ -8,9 +8,13 @@ authors = [
 ]
 dependencies = [
     "ipykernel>=7.4.0",
+    "kagglehub<1.0.3",
     "nltk>=3.10.4",
     "pandas>=3.1.1",
     "spacy>=3.8.18",
+    "en-core-web-sm",
+    "sv-core-news-sm",
+    "tqdm>=4.70.1",
 ]
 requires-python = ">=3.15"
 
@@ -21,9 +25,13 @@ dev = [
 ]
 
 [tool.ruff]
-target-version = "py311"
+target-version = "py315"
 extend-exclude = ["docs/**"]
 indent-width = 2
 
 [tool.ruff.lint.per-file-ignores]
 "src/**/*.ipynb" = ["F401"]
+
+[tool.uv.sources]
+sv-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/sv_core_news_sm-3.8.0/sv_core_news_sm-3.8.0-py3-none-any.whl" }
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
