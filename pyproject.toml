@@ -27,7 +27,7 @@ dev = [
 
 [tool.ruff]
 target-version = "py311"
-extend-exclude = ["docs/lab1/text_mining1.ipynb"]
+extend-exclude = ["docs/text_mining1.ipynb"]
 
 [tool.ruff.lint.per-file-ignores]
 "notebooks/*_starter.ipynb" = ["F401"]
